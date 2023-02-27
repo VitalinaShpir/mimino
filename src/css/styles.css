@@ -28,4 +28,14 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  /* Colors */
+  --bg-color: #D8D8D8;
+  --dark-bg-txt-color: #121212;
+  --light-txt-color: #F6F6F6;
+  --black-color: #000000;
+  --white-color: #ffffff;
+  --medium-txt-color: #484848;
+
+
 }
