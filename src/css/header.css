@@ -2,6 +2,7 @@
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: var(--dark-bg-txt-color);
+  border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);
 }
 .logo {
   display: flex;
@@ -13,7 +14,6 @@
   line-height: 22px;
   letter-spacing: 0.18em;
   color: var(--light-txt-color);
-  border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);
 }
 .logo-down {
   font-weight: 400;
@@ -94,4 +94,55 @@
   display: flex;
   align-items: center;
   gap: 14px;
+}
+
+/**
+  |============================
+  | ---------TABLET STYLES ----------
+  |============================
+*/
+
+@media screen and (min-width: 768px) {
+  .social-list {
+    position: absolute;
+    top: 27px;
+    right: 32px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .logo {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .logo-down {
+    font-size: 8px;
+    line-height: 10px;
+  }
+  .header-container{
+    display: flex;
+  }
+  .mobile-menu-social-list{
+    position: absolute;
+    top: 27px;
+    right: 32px;
+  }
+  .mobile-menu{
+    justify-content: flex-start;
+    gap: 240px;
+  }
+}
+
+/**
+  |============================
+  | ----- DESKTOP STYLES -------
+  |============================
+*/
+
+@media screen and (min-width: 1440px) {
+.mobile-menu-btn{
+  display: none;
+}
+    
+    
 }
